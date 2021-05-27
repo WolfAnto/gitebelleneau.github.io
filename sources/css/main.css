@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "poppins";
+    src: url("font/poppins.ttf") format("truetype");
+}
+ 
+html {                      /* Défini la page html en 1024x768 */
+    height: 768px;
+    width: 1024px;
+    overflow: hidden;
+    margin: auto;
+}
+body {                  /* Défini la taille en hauteur de la page HTML */
+    height: 80%;
+    overflow: hidden;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+h1 {                                /* Configuration de la taille de police d'écriture de niveau 2 de titres */
+   font-size: 1.50em;
+   background-repeat: no-repeat;
+    }
+
+section {                           /* Permet de placer le titre de la catégorie en hauteur */
+padding:300px;
+}
+
+.banner {                      /* Configuration du fond d'écran et de ses élements */
+position:relative;
+min-height:100vh;
+background:url(../imgs/fond4.jpg);
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.banner h2 {                      /* Configuration de la taille de police d'écriture h2 */
+font-size:3em;
+color:#111;
+font-weight:500;
+line-height:1.5em;
+}
+
+.banner h2 span {                      /* Configuration de la taille de police d'écriture h2 span */
+font-size:1.5em;
+font-weight:700;
+}
+
+.banner h3 {                      /* Configuration de la taille de police d'écriture h3 */
+font-size:1.5em;
+color:#111;
+font-weight:500;
+}
+
+.btn {                      /* Configuration de l'affichage du bouton */
+position:relative;
+background:#228b22;
+display:inline-block;
+color:#fff;
+margin-top:20px;
+padding:10px 30px;
+font-size:18px;
+text-transform:uppercase;
+text-decoration:none;
+letter-spacing:2px;
+font-weight:500;
+border-radius:5px;
+}
+
+header {               /* Configuration de la barre de navigation */
+position:fixed;
+top:0;
+left:0;
+width:100%;
+padding:40px 380px;
+z-index:1000;
+display:flex;
+justify-content:space-between;
+align-items:center;
+transition:.5s;
+background:#fff;
+height: 5%;
+opacity: 0.8;
+}
+
+header.sticky {               /* Configuration de la barre de navigation */
+background:#fff;
+padding:20px 200px;
+box-shadow:0 10px 20px rgba(0,0,0,.1);
+}
+
+header .logo {               /* Configuration de la barre de navigation */
+color:#262626;
+font-size:24px;
+text-transform:uppercase;
+text-decoration:none;
+font-weight:700;
+letter-spacing:2px;
+}
+
+header ul {               /* Configuration de la barre de navigation */
+position:relative;
+display:flex;
+}
+
+header ul li {               /* Configuration de la barre de navigation */
+position:relative;
+list-style:none;
+}
+
+header ul li a {               /* Configuration de la barre de navigation */
+position:relative;
+display:inline-block;
+margin:0 15px;
+color:#262626;
+text-decoration:none;
+}
+
+.copyright {                /* Configuration de la barre Copyright en bas de page */
+background:#228b22;
+color:#fff;
+text-align:center;
+padding:7px;
+}

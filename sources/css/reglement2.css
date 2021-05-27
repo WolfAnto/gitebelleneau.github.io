@@ -1,0 +1,173 @@
+@font-face {
+    font-family: "poppins";
+    src: url("font/poppins.ttf") format("truetype");
+}
+ 
+html {                  /* Défini la page html en 1024x768 */
+    height: 768px;
+    width: 1024px;
+    overflow: hidden;
+    margin: auto;
+}
+body {                  /* Défini la taille en hauteur de la page HTML */
+    height: 75%;
+    overflow: hidden;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+
+p {                               /* Configuration de la taille de police d'écriture de p */
+   font-size: .80em;
+   background-repeat: no-repeat;
+    }
+
+h2 {                               /* Configuration de la taille de police d'écriture de h2 */
+   font-size: .70em;
+   background-repeat: no-repeat;
+    }
+
+h1 {                               /* Configuration de la taille de police d'écriture de h1 */
+   font-size: 1.50em;
+   background-repeat: no-repeat;
+    }
+
+
+.btn {                      /* Configuration de l'affichage du bouton */
+position:relative;
+background:#228b22;
+display:inline-block;
+color:#fff;
+margin-top:1px;
+padding:3px 10px;
+font-size:12px;
+text-transform:uppercase;
+text-decoration:none;
+letter-spacing:2px;
+font-weight:500;
+border-radius:5px;
+}
+
+section {               /* Permet de placer le titre de la catégorie en hauteur */
+padding:80px;
+}
+
+header {               /* Configuration de la barre de navigation */
+position:fixed;
+top:0;
+left:0;
+width:100%;
+padding:40px 380px;
+z-index:1000;
+display:flex;
+justify-content:space-between;
+align-items:center;
+transition:.5s;
+background:#fff;
+height: 5%;
+opacity: 0.8;
+}
+
+header.sticky {               /* Configuration de la barre de navigation */
+background:#fff;
+padding:20px 200px;
+box-shadow:0 10px 20px rgba(0,0,0,.1);
+}
+
+header .logo {               /* Configuration de la barre de navigation */
+color:#262626;
+font-size:24px;
+text-transform:uppercase;
+text-decoration:none;
+font-weight:700;
+letter-spacing:2px;
+}
+
+header ul {               /* Configuration de la barre de navigation */
+position:relative;
+display:flex;
+}
+
+header ul li {               /* Configuration de la barre de navigation */
+position:relative;
+list-style:none;
+}
+
+header ul li a {               /* Configuration de la barre de navigation */
+position:relative;
+display:inline-block;
+margin:0 15px;
+color:#262626;
+text-decoration:none;
+}
+
+.heading {                /* Configuration de l'affichage de la page HTML */
+width:100%;
+text-align:center;
+margin-bottom:10px;
+color:#ffffff;
+font-weight:600;
+font-size:30px;
+}
+
+.content {
+display:flex;
+justify-content:space-between;
+}
+
+.contentBx {
+padding-right:50px;
+}
+
+.contentBx h3 {
+font-size:24px;
+margin-bottom:10px;
+}
+
+.w50 {
+min-width:50%;
+}
+
+.w50 img {               /* Taille des images */
+width:600px;
+}
+
+img {               /* Taille des images */
+max-width:100%;
+}
+
+.contact {
+background:#333;
+}
+
+.contactInfoBx .box .text {
+display:flex;
+margin-left:20px;
+font-size:16px;
+color:#fff;
+flex-direction:column;
+font-weight:300;
+}
+
+.contactInfoBx .box .text h3 {
+font-weight:500;
+color:#228b22;
+margin-bottom:0;
+}
+
+.copyright {                /* Configuration de la barre Copyright en bas de page */
+background:#333;
+color:#fff;
+text-align:center;
+padding:10px;
+}
+
+.contactInfoBx .box .text a {
+text-decoration:none;
+color:#fff;
+}
