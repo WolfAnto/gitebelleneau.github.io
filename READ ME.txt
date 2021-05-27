@@ -1,5 +1,0 @@
-/!\ ATTENTION /!\
-
-le dossier "web" ne doit pas être renommer sous peine que les pages HTML ne seront plus accessible.
-
-/!\ ATTENTION /!\
