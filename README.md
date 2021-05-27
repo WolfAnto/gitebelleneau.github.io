@@ -1,2 +1,2 @@
-# sitegite
-Projet site Gite
+# Site Gite Belleneau
+Projet site Gite, BTS SIO
