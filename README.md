@@ -1,4 +1,4 @@
-# https://wolfanto.github.io/gitebelleneau.github.io/
+# Voir le site : https://wolfanto.github.io/gitebelleneau.github.io/
 # Mise en contexte :
 
 Présentation du projet : Je suis salarié de la société fictive NAILLE. Ma société s’ouvre à un nouveau marché, celui des gîtes, des chambres d’hôtes, des gîtes de groupe. Ma mission est de réaliser une maquette en HTML5 et CSS pour un des trois styles de futurs clients. Ces maquettes doit être réalistes car présentées à de futurs clients. L’usage du PHP est interdit. Ma  réalisation  doit  contenir  un  logo,  un  nom  d’enseigne,  et  une  charte graphique  simple  (fonts,  couleur,  structure  des  pages).  Dans  cette  charte graphique, une présentation de la maquette devra être présente. J'ai dû travailler avec un ou une graphiste qui m'aidera dans cette partie.
